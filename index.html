@@ -24,6 +24,12 @@
 
     <link rel="stylesheet" href="./css/universal.css">
 
+
+    <link rel="shortcut icon" href="./assets/Images/favicon.png" type="image/x-icon">
+
+    <!-- Java Script -->
+    <script src="./index.js" defer></script>
+
 </head>
 
 
@@ -59,9 +65,11 @@
 
                     <form class="form-inline flex-grow-1   position-relative">
 
-                        <input class="form-control " type="search" placeholder="Search for brands,fashion and more"
+                        <input class="form-control " type="search" placeholder="Search for Brands, Fashion and More"
                             aria-label="Search" />
-                        <span class="material-symbols-outlined position-absolute top-0 mt-2 me-2 end-0 bg-light text-secondary"> search </span>
+                        <span
+                            class="material-symbols-outlined position-absolute top-0 mt-2 me-2 end-0 bg-light text-secondary">
+                            search </span>
 
                     </form>
 
@@ -86,14 +94,17 @@
                                 More
                             </a>
                             <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item d-flex align-items-center" href="#"><span class="material-symbols-outlined  ">
-                                    favorite
+                                <a class="dropdown-item d-flex align-items-center" href="#"><span
+                                        class="material-symbols-outlined  ">
+                                        favorite
                                     </span><span class="ms-2">WishList</span> </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#"><span class="material-symbols-outlined">
-                                    list_alt
+                                <a class="dropdown-item d-flex align-items-center" href="#"><span
+                                        class="material-symbols-outlined">
+                                        list_alt
                                     </span><span class="ms-2">Orders</span> </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#"><span class="material-symbols-outlined">
-                                    info
+                                <a class="dropdown-item d-flex align-items-center" href="#"><span
+                                        class="material-symbols-outlined">
+                                        info
                                     </span><span class="ms-2">Help Center</span> </a>
                             </div>
 
@@ -102,7 +113,7 @@
                         <li class="nav-item">
 
                             <a class="nav-link text-light align-items-center d-flex " href="#"><span>Cart</span>
-                            <span class="material-symbols-outlined">shopping_cart</span></a>
+                                <span class="material-symbols-outlined">shopping_cart</span></a>
 
                         </li>
 
@@ -120,38 +131,38 @@
 
     <!-----------Footer Navigation For Mobile View------------->
 
-    <div class="bg-primary fixed-bottom w-100 fs-6 navbar-dark d-flex d-md-none">
-        <ul class="navbar-nav w-100 flex-row align-items-center justify-content-evenly">
+    <div class="bg-primary fixed-bottom w-100 fs-6 navbar-dark d-flex d-md-none mt-3">
+        <ul class="navbar-nav w-100 flex-row align-items-center justify-content-evenly ">
             <li class="nav-link text-center">
                 <span class="material-symbols-outlined">
                     home
-                    </span>
-                <div>Home</div> 
+                </span>
+                <div>Home</div>
             </li>
             <li class="nav-link text-center">
                 <span class="material-symbols-outlined">
                     category
-                    </span>
-                <div>   Categories</div>
-                 
+                </span>
+                <div> Categories</div>
+
             </li>
             <li class="nav-link text-center">
                 <span class="material-symbols-outlined">
                     account_circle
-                    </span>
-                <div>Account</div> 
+                </span>
+                <div>Account</div>
             </li>
             <li class="nav-link text-center">
                 <span class="material-symbols-outlined">
                     notifications
-                    </span>
-                 <div>Notification</div>
+                </span>
+                <div>Notification</div>
             </li>
             <li class="nav-link text-center">
                 <span class="material-symbols-outlined">
                     shopping_cart
-                    </span>
-                 <div>Cart</div>
+                </span>
+                <div>Cart</div>
             </li>
         </ul>
     </div>
@@ -161,62 +172,337 @@
 
     <!-------- Categories ------>
 
-    <section id="categories" class="shadow-sm  text-nowrap overflow-auto">
+    <section id="categories" class="shadow-sm bg-light text-nowrap overflow-auto">
 
         <div class="container-xl ">
 
-            <ul class="d-flex justify-content-between pt-3 ps-0 ">
+            <ul class="d-flex justify-content-between pt-2 ps-0 ">
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/Top_Offers.png" alt="Top_Offers">
-                <p class="mt-1 mb-0">Top Offers</p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/Top_Offers.png" alt="Top_Offers">
+                    <p class="mt-1 mb-0">Top Offers</p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/grocery.png" alt="Grocery">
-                <p class="mt-1 mb-0">Grocery</p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/grocery.png" alt="Grocery">
+                    <p class="mt-1 mb-0">Grocery</p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/Mobiles.png" alt="Mobiles">
-                <p class="mt-1 mb-0">Mobiles</p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/Mobiles.png" alt="Mobiles">
+                    <p class="mt-1 mb-0">Mobiles</p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/fashion.png" alt="Fashion">
-                <p class="mt-1 mb-0">Fashion<span class="material-symbols-outlined align-middle">expand_more</span></p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/fashion.png" alt="Fashion">
+                    <p class="mt-1 mb-0">Fashion<span class="material-symbols-outlined align-middle">expand_more</span>
+                    </p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/electronics.png" alt="Electronics">
-                <p class="mt-1 mb-0">Electronics<span class="material-symbols-outlined align-middle">expand_more</span></p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/electronics.png" alt="Electronics">
+                    <p class="mt-1 mb-0">Electronics<span
+                            class="material-symbols-outlined align-middle">expand_more</span></p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/Home.png" alt="Home">
-                <p class="mt-1 mb-0">Home<span class="material-symbols-outlined align-middle ">expand_more</span></p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/Home.png" alt="Home">
+                    <p class="mt-1 mb-0">Home<span class="material-symbols-outlined align-middle ">expand_more</span>
+                    </p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/appliances.png" alt="appliances">
-                <p class="mt-1 mb-0">Appliances</p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/appliances.png" alt="appliances">
+                    <p class="mt-1 mb-0">Appliances</p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/travel.png" alt="Travel">
-                <p class="mt-1 mb-0">Travel</p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/travel.png" alt="Travel">
+                    <p class="mt-1 mb-0">Travel</p>
+                </li>
 
-              <li class="list-unstyled px-3 d-flex flex-column align-items-center">
-                <img  width="65" src="./assets/Images/categories/Beauty__Toys_and_more.png" alt="Beauty__Toys_and_more">
-                <p class="mt-1 mb-0">Beauty Toys and more<span class="material-symbols-outlined align-middle">expand_more</span></p>
-              </li>
+                <li class="list-unstyled px-3 d-flex flex-column align-items-center">
+                    <img width="65" src="./assets/Images/categories/Beauty__Toys_and_more.png"
+                        alt="Beauty__Toys_and_more">
+                    <p class="mt-1 mb-0">Beauty Toys and more<span
+                            class="material-symbols-outlined align-middle">expand_more</span></p>
+                </li>
 
             </ul>
 
         </div>
-        
+
     </section>
+
+
+    <!-- main-container -->
+
+    <section id="main-container" class="container-xl mt-2 mb-5 mb-md-0">
+
+        <div class="row">
+
+            <!-- Product-list-1 -->
+
+            <div id="product-list-1" class="col-12 col-xl-10 px-0" style="height: 322px;" >
+
+                <div class="d-flex flex-column m-1 bg-light position-relative" >
+
+                    <div id="left-control" class="position-absolute top-50 start-0 carousel-controls">
+                        <span class="material-symbols-outlined">
+                            chevron_left
+                            </span>
+                    </div>
+                    <div id="right-control" class="position-absolute top-50 end-0 carousel-controls">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                            </span>
+                    </div>
+
+
+
+                    <div class="d-flex align-items-center p-3 fw-bold border-bottom  justify-content-between" >
+
+                        <div class="d-flex align-items-center">
+
+                            <span class="pe-3">Deals Of the Day </span>
+                            <span class="material-symbols-outlined text-danger pe-2 align-middle">timer</span>
+                            <span class="d-none d-sm-block"> 22: 07: 36 Left</span>
+
+                        </div>
+
+                        <div>
+
+                            <button class="btn btn-primary btn-sm">VIEW ALL</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="overflow-hidden d-flex" id="product-list-items"  style="transition: 2s; scroll-behavior: smooth;">
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/watches.jpg" width="90" class="pb-1" alt="Watches">
+
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Casio, FastTrack, Sonata</div>
+                                <div class="text-success">Upto 60%+Extra 10% off</div>
+                                <div class="text-secondary">Knock Out the deal</div>
+
+                            </div>
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/women-tops.jpg" width="90" class="pb-1"
+                                alt="women-tops">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Women's Tops</div>
+                                <div class="text-success">Min. 50% Off</div>
+                                <div class="text-secondary">Party, Casual & more</div>
+
+                            </div>
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/headphones.jpg" width="90" class="pb-1"
+                                alt="headphones">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Studio Headphones</div>
+                                <div class="text-success">Upto 50% Off</div>
+                                <div class="text-secondary">Explore Now!</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/bags.jpg" width="110" class="pb-1" alt="specs">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Bags, Trolleys, Luggage & more</div>
+                                <div class="text-success">50-70%+Extra 10% Off</div>
+                                <div class="text-secondary">WildCraft, American Tourister</div>
+                            </div>
+
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/dryer.jpg" width="90" class="pb-1" alt="dryer">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Hair Dryer</div>
+                                <div class="text-success">From &#8377 600</div>
+                                <div class="text-secondary">philips, skytone & more</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/printer.jpg" width="90" class="pb-1"
+                                alt="printer">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Printer</div>
+                                <div class="text-success">From &#8377 3999</div>
+                                <div class="text-secondary">HP</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/phone-case.jpg" width="90" class="pb-1"
+                                alt="phone-case">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">Phone Case</div>
+                                <div class="text-success">From &#8377 150</div>
+                                <div class="text-secondary">For All Top Models</div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/jackets.jpg" width="90" class="pb-1"
+                                alt="jackets">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+
+                                <div class="product-list-item-name">SweatShirts, Hoodies, Jackets...</div>
+                                <div class="text-success">Upto 50% Off</div>
+                                <div class="text-secondary">WildCraft, Fort Collins & more</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- aside ads -->
+            <div id="aside-ads-section" class="col-xl-2 d-none d-xl-block px-0" style="height:322px;" >
+                <div class="m-1 bg-image bg-light text-center pt-5 flex-grow-1"
+                    style="background: url('./assets/Images/main-container/Aside-deals.jpg') no-repeat bottom; height: 313px;">
+
+                    <h5 class="fw-bold fs-4 pb-4 mt-5">Best Of <br> Today's Deal</h5>
+                    <button class="btn-primary btn">VIEW ALL</button>
+
+                </div>
+            </div>
+
+
+
+            <!-- product-list-2 -->
+            <div id="product-list-2" class="col-12 px-0 mb-4 mb-md-0">
+
+                <div class="d-flex flex-column m-1 bg-light">
+
+                    <div class="d-flex align-items-center p-3  border-bottom justify-content-between"> 
+
+                        <div>
+
+                            <span class="pe-3 fw-bold">Books and Music Instruments </span>
+                            <div class="ft-small text-secondary d-none d-sm-block"> Shop Now!</div>
+
+                        </div>
+
+                        <div>
+
+                            <button class="btn btn-primary btn-sm text-nowrap">VIEW ALL</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="overflow-auto d-flex">
+
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <img src="./assets/Images/main-container/guitar.jpg" class="pb-1" width="140px" alt="Guitar">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+        
+                                <div>Guitars</div>
+                                <div class="text-success">Upto 60% off</div>
+                                <div class="text-secondary">Shop Now</div>
+        
+                            </div>
+                        </div>
+        
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+        
+                            <img src="./assets/Images/main-container/flutes.jpg" class="pb-1" width="120px" alt="book">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+        
+                                <div>Flutes</div>
+                                <div class="text-success">Min. 50% Off</div>
+                                <div class="text-secondary">Shop Now</div>
+        
+                            </div>
+                        </div>
+        
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+                            <img src="./assets/Images/main-container/Educational books.jpg" class="pb-1" width="115px" alt="Educational Book">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+        
+                                <div>Educational Books</div>
+                                <div class="text-success">Upto 50% Off</div>
+                                <div class="text-secondary">Explore Now!</div>
+        
+                            </div>
+                        </div>
+        
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+                            <img src="./assets/Images/main-container/Piano.jpg" class="pb-1 pt-5" width="160px" alt="Piano">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+        
+                                <div>Piano</div>
+                                <div class="text-success">50-70%+Extra 10% Off</div>
+                                <div class="text-secondary">Shop Now!</div>
+        
+                            </div>
+                        </div>
+        
+                        <div class="py-3 px-4 d-flex flex-column justify-content-between align-items-center">
+                            <img src="./assets/Images/main-container/Literature-book.jpg" class="pb-1" width="100px" alt="Literature-book">
+                            <div class="d-flex flex-column  text-nowrap justify-content-center align-items-center">
+        
+                                <div>Literature books</div>
+                                <div class="text-success">From &#8377 200</div>
+                                <div class="text-secondary">Shop Now</div>
+        
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
 
 
 
